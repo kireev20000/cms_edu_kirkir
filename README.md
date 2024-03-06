@@ -12,7 +12,7 @@ CMS платформа электронного обучения на Django.
 - добавлять модули в курс и их переупорядочивать
 - используется кеш-бэкенд на Redis
 - реализован API-интерфейс
-- 
+- отдельный чат для студентов каждого курса (ASGI, WebSocket, Redis)
 
 ## Стек
 - Python 3.11
@@ -21,6 +21,8 @@ CMS платформа электронного обучения на Django.
 - Redis
 - Django Redisboard
 - Django Rest Framework
+- Channels
+- 
 ___
 
 
@@ -73,8 +75,5 @@ SECRET_KEY = "ваш_ключ_Django"
 
 ## Об авторе <a id=7></a>
 
-Киреев Александр Олегович  
-Python-разработчик (Backend)  
-E-mail: kireev20000@yandex.ru
 Telegram: @kireev20000
 
